@@ -1,0 +1,11 @@
+.app{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:48px 20px;background:radial-gradient(1200px 400px at 10% 20%, #f0f6ff55 0%, transparent 10%), radial-gradient(800px 300px at 90% 80%, #fff0f455 0%, transparent 10%), linear-gradient(180deg,#f6f8ff 0%,#eef7fb 100%);font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial}
+.app h1{font-size:22px;color:#0f172a;margin-bottom:18px;font-weight:700;letter-spacing:0.2px;background:linear-gradient(90deg,#6d28d9,#06b6d4);-webkit-background-clip:text;background-clip:text;color:transparent}
+
+.logo{height:48px;filter:drop-shadow(0 6px 18px rgba(99,102,241,0.12))}
+
+.card{padding:1.25rem}
+
+.read-the-docs{color:#6b7280}
+
+/* subtle page sparkle */
+.app::after{content:"";position:fixed;inset:0;pointer-events:none;background-image:radial-gradient(rgba(255,255,255,0.04) 1px, transparent 1px);background-size:60px 60px;opacity:0.6}
